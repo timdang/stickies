@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388A2A851EC2512600748F14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2A841EC2512600748F14 /* AppDelegate.swift */; };
+		388A2A871EC2512600748F14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2A861EC2512600748F14 /* ViewController.swift */; };
+		388A2A8A1EC2512600748F14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388A2A881EC2512600748F14 /* Main.storyboard */; };
+		388A2A8C1EC2512600748F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388A2A8B1EC2512600748F14 /* Assets.xcassets */; };
+		388A2A8F1EC2512600748F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388A2A8D1EC2512600748F14 /* LaunchScreen.storyboard */; };
+		388A2A9A1EC2512600748F14 /* StickiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2A991EC2512600748F14 /* StickiesTests.swift */; };
+		388A2AA51EC2512600748F14 /* StickiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2AA41EC2512600748F14 /* StickiesUITests.swift */; };
+		388A2AAA1EC2512600748F14 /* Stickies WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 388A2AA91EC2512600748F14 /* Stickies WatchKit App.app */; };
+		388A2AB01EC2512600748F14 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388A2AAE1EC2512600748F14 /* Interface.storyboard */; };
+		388A2AB21EC2512600748F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388A2AB11EC2512600748F14 /* Assets.xcassets */; };
+		388A2AB91EC2512600748F14 /* Stickies WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 388A2AB81EC2512600748F14 /* Stickies WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		388A2AC01EC2512600748F14 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2ABF1EC2512600748F14 /* InterfaceController.swift */; };
+		388A2AC21EC2512600748F14 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2AC11EC2512600748F14 /* ExtensionDelegate.swift */; };
+		388A2AC41EC2512600748F14 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2AC31EC2512600748F14 /* NotificationController.swift */; };
+		388A2AC61EC2512600748F14 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388A2AC51EC2512600748F14 /* ComplicationController.swift */; };
+		388A2AC81EC2512600748F14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388A2AC71EC2512600748F14 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		388A2A961EC2512600748F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388A2A791EC2512600748F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388A2A801EC2512600748F14;
+			remoteInfo = Stickies;
+		};
+		388A2AA11EC2512600748F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388A2A791EC2512600748F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388A2A801EC2512600748F14;
+			remoteInfo = Stickies;
+		};
+		388A2AAB1EC2512600748F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388A2A791EC2512600748F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388A2AA81EC2512600748F14;
+			remoteInfo = "Stickies WatchKit App";
+		};
+		388A2ABA1EC2512600748F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388A2A791EC2512600748F14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388A2AB71EC2512600748F14;
+			remoteInfo = "Stickies WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		388A2ACF1EC2512600748F14 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				388A2AB91EC2512600748F14 /* Stickies WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2AD31EC2512600748F14 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				388A2AAA1EC2512600748F14 /* Stickies WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		388A2A811EC2512600748F14 /* Stickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A2A841EC2512600748F14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		388A2A861EC2512600748F14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		388A2A891EC2512600748F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388A2A8B1EC2512600748F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388A2A8E1EC2512600748F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388A2A901EC2512600748F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A2A951EC2512600748F14 /* StickiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A2A991EC2512600748F14 /* StickiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickiesTests.swift; sourceTree = "<group>"; };
+		388A2A9B1EC2512600748F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A2AA01EC2512600748F14 /* StickiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A2AA41EC2512600748F14 /* StickiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickiesUITests.swift; sourceTree = "<group>"; };
+		388A2AA61EC2512600748F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A2AA91EC2512600748F14 /* Stickies WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stickies WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A2AAF1EC2512600748F14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		388A2AB11EC2512600748F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388A2AB31EC2512600748F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388A2AB81EC2512600748F14 /* Stickies WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Stickies WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A2ABE1EC2512600748F14 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		388A2ABF1EC2512600748F14 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		388A2AC11EC2512600748F14 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		388A2AC31EC2512600748F14 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		388A2AC51EC2512600748F14 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		388A2AC71EC2512600748F14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388A2AC91EC2512600748F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388A2A7E1EC2512600748F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2A921EC2512600748F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2A9D1EC2512600748F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2AB51EC2512600748F14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388A2A781EC2512600748F14 = {
+			isa = PBXGroup;
+			children = (
+				388A2A831EC2512600748F14 /* Stickies */,
+				388A2A981EC2512600748F14 /* StickiesTests */,
+				388A2AA31EC2512600748F14 /* StickiesUITests */,
+				388A2AAD1EC2512600748F14 /* Stickies WatchKit App */,
+				388A2ABC1EC2512600748F14 /* Stickies WatchKit Extension */,
+				388A2A821EC2512600748F14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388A2A821EC2512600748F14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388A2A811EC2512600748F14 /* Stickies.app */,
+				388A2A951EC2512600748F14 /* StickiesTests.xctest */,
+				388A2AA01EC2512600748F14 /* StickiesUITests.xctest */,
+				388A2AA91EC2512600748F14 /* Stickies WatchKit App.app */,
+				388A2AB81EC2512600748F14 /* Stickies WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388A2A831EC2512600748F14 /* Stickies */ = {
+			isa = PBXGroup;
+			children = (
+				388A2A841EC2512600748F14 /* AppDelegate.swift */,
+				388A2A861EC2512600748F14 /* ViewController.swift */,
+				388A2A881EC2512600748F14 /* Main.storyboard */,
+				388A2A8B1EC2512600748F14 /* Assets.xcassets */,
+				388A2A8D1EC2512600748F14 /* LaunchScreen.storyboard */,
+				388A2A901EC2512600748F14 /* Info.plist */,
+			);
+			path = Stickies;
+			sourceTree = "<group>";
+		};
+		388A2A981EC2512600748F14 /* StickiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				388A2A991EC2512600748F14 /* StickiesTests.swift */,
+				388A2A9B1EC2512600748F14 /* Info.plist */,
+			);
+			path = StickiesTests;
+			sourceTree = "<group>";
+		};
+		388A2AA31EC2512600748F14 /* StickiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				388A2AA41EC2512600748F14 /* StickiesUITests.swift */,
+				388A2AA61EC2512600748F14 /* Info.plist */,
+			);
+			path = StickiesUITests;
+			sourceTree = "<group>";
+		};
+		388A2AAD1EC2512600748F14 /* Stickies WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				388A2AAE1EC2512600748F14 /* Interface.storyboard */,
+				388A2AB11EC2512600748F14 /* Assets.xcassets */,
+				388A2AB31EC2512600748F14 /* Info.plist */,
+			);
+			path = "Stickies WatchKit App";
+			sourceTree = "<group>";
+		};
+		388A2ABC1EC2512600748F14 /* Stickies WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				388A2ABF1EC2512600748F14 /* InterfaceController.swift */,
+				388A2AC11EC2512600748F14 /* ExtensionDelegate.swift */,
+				388A2AC31EC2512600748F14 /* NotificationController.swift */,
+				388A2AC51EC2512600748F14 /* ComplicationController.swift */,
+				388A2AC71EC2512600748F14 /* Assets.xcassets */,
+				388A2AC91EC2512600748F14 /* Info.plist */,
+				388A2ABD1EC2512600748F14 /* Supporting Files */,
+			);
+			path = "Stickies WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		388A2ABD1EC2512600748F14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				388A2ABE1EC2512600748F14 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388A2A801EC2512600748F14 /* Stickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A2AD41EC2512600748F14 /* Build configuration list for PBXNativeTarget "Stickies" */;
+			buildPhases = (
+				388A2A7D1EC2512600748F14 /* Sources */,
+				388A2A7E1EC2512600748F14 /* Frameworks */,
+				388A2A7F1EC2512600748F14 /* Resources */,
+				388A2AD31EC2512600748F14 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388A2AAC1EC2512600748F14 /* PBXTargetDependency */,
+			);
+			name = Stickies;
+			productName = Stickies;
+			productReference = 388A2A811EC2512600748F14 /* Stickies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		388A2A941EC2512600748F14 /* StickiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A2AD71EC2512600748F14 /* Build configuration list for PBXNativeTarget "StickiesTests" */;
+			buildPhases = (
+				388A2A911EC2512600748F14 /* Sources */,
+				388A2A921EC2512600748F14 /* Frameworks */,
+				388A2A931EC2512600748F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388A2A971EC2512600748F14 /* PBXTargetDependency */,
+			);
+			name = StickiesTests;
+			productName = StickiesTests;
+			productReference = 388A2A951EC2512600748F14 /* StickiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		388A2A9F1EC2512600748F14 /* StickiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A2ADA1EC2512600748F14 /* Build configuration list for PBXNativeTarget "StickiesUITests" */;
+			buildPhases = (
+				388A2A9C1EC2512600748F14 /* Sources */,
+				388A2A9D1EC2512600748F14 /* Frameworks */,
+				388A2A9E1EC2512600748F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388A2AA21EC2512600748F14 /* PBXTargetDependency */,
+			);
+			name = StickiesUITests;
+			productName = StickiesUITests;
+			productReference = 388A2AA01EC2512600748F14 /* StickiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		388A2AA81EC2512600748F14 /* Stickies WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A2AD01EC2512600748F14 /* Build configuration list for PBXNativeTarget "Stickies WatchKit App" */;
+			buildPhases = (
+				388A2AA71EC2512600748F14 /* Resources */,
+				388A2ACF1EC2512600748F14 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388A2ABB1EC2512600748F14 /* PBXTargetDependency */,
+			);
+			name = "Stickies WatchKit App";
+			productName = "Stickies WatchKit App";
+			productReference = 388A2AA91EC2512600748F14 /* Stickies WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		388A2AB71EC2512600748F14 /* Stickies WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388A2ACC1EC2512600748F14 /* Build configuration list for PBXNativeTarget "Stickies WatchKit Extension" */;
+			buildPhases = (
+				388A2AB41EC2512600748F14 /* Sources */,
+				388A2AB51EC2512600748F14 /* Frameworks */,
+				388A2AB61EC2512600748F14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stickies WatchKit Extension";
+			productName = "Stickies WatchKit Extension";
+			productReference = 388A2AB81EC2512600748F14 /* Stickies WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388A2A791EC2512600748F14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tim Dang";
+				TargetAttributes = {
+					388A2A801EC2512600748F14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					388A2A941EC2512600748F14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 388A2A801EC2512600748F14;
+					};
+					388A2A9F1EC2512600748F14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 388A2A801EC2512600748F14;
+					};
+					388A2AA81EC2512600748F14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					388A2AB71EC2512600748F14 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 388A2A7C1EC2512600748F14 /* Build configuration list for PBXProject "Stickies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388A2A781EC2512600748F14;
+			productRefGroup = 388A2A821EC2512600748F14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388A2A801EC2512600748F14 /* Stickies */,
+				388A2A941EC2512600748F14 /* StickiesTests */,
+				388A2A9F1EC2512600748F14 /* StickiesUITests */,
+				388A2AA81EC2512600748F14 /* Stickies WatchKit App */,
+				388A2AB71EC2512600748F14 /* Stickies WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388A2A7F1EC2512600748F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A2A8F1EC2512600748F14 /* LaunchScreen.storyboard in Resources */,
+				388A2A8C1EC2512600748F14 /* Assets.xcassets in Resources */,
+				388A2A8A1EC2512600748F14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2A931EC2512600748F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2A9E1EC2512600748F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2AA71EC2512600748F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A2AB21EC2512600748F14 /* Assets.xcassets in Resources */,
+				388A2AB01EC2512600748F14 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2AB61EC2512600748F14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A2AC81EC2512600748F14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388A2A7D1EC2512600748F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A2A871EC2512600748F14 /* ViewController.swift in Sources */,
+				388A2A851EC2512600748F14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2A911EC2512600748F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A2A9A1EC2512600748F14 /* StickiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2A9C1EC2512600748F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A2AA51EC2512600748F14 /* StickiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388A2AB41EC2512600748F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388A2AC41EC2512600748F14 /* NotificationController.swift in Sources */,
+				388A2AC61EC2512600748F14 /* ComplicationController.swift in Sources */,
+				388A2AC21EC2512600748F14 /* ExtensionDelegate.swift in Sources */,
+				388A2AC01EC2512600748F14 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388A2A971EC2512600748F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388A2A801EC2512600748F14 /* Stickies */;
+			targetProxy = 388A2A961EC2512600748F14 /* PBXContainerItemProxy */;
+		};
+		388A2AA21EC2512600748F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388A2A801EC2512600748F14 /* Stickies */;
+			targetProxy = 388A2AA11EC2512600748F14 /* PBXContainerItemProxy */;
+		};
+		388A2AAC1EC2512600748F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388A2AA81EC2512600748F14 /* Stickies WatchKit App */;
+			targetProxy = 388A2AAB1EC2512600748F14 /* PBXContainerItemProxy */;
+		};
+		388A2ABB1EC2512600748F14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388A2AB71EC2512600748F14 /* Stickies WatchKit Extension */;
+			targetProxy = 388A2ABA1EC2512600748F14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388A2A881EC2512600748F14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388A2A891EC2512600748F14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		388A2A8D1EC2512600748F14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388A2A8E1EC2512600748F14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		388A2AAE1EC2512600748F14 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388A2AAF1EC2512600748F14 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388A2ACA1EC2512600748F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388A2ACB1EC2512600748F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388A2ACD1EC2512600748F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Stickies WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.Stickies.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		388A2ACE1EC2512600748F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Stickies WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.Stickies.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		388A2AD11EC2512600748F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Stickies_WatchKit_Extension;
+				INFOPLIST_FILE = "Stickies WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.Stickies.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		388A2AD21EC2512600748F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Stickies_WatchKit_Extension;
+				INFOPLIST_FILE = "Stickies WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.Stickies.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		388A2AD51EC2512600748F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stickies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.Stickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		388A2AD61EC2512600748F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stickies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.Stickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		388A2AD81EC2512600748F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StickiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.StickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickies.app/Stickies";
+			};
+			name = Debug;
+		};
+		388A2AD91EC2512600748F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StickiesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.StickiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stickies.app/Stickies";
+			};
+			name = Release;
+		};
+		388A2ADB1EC2512600748F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StickiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.StickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Stickies;
+			};
+			name = Debug;
+		};
+		388A2ADC1EC2512600748F14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StickiesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.timdang.StickiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Stickies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388A2A7C1EC2512600748F14 /* Build configuration list for PBXProject "Stickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A2ACA1EC2512600748F14 /* Debug */,
+				388A2ACB1EC2512600748F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388A2ACC1EC2512600748F14 /* Build configuration list for PBXNativeTarget "Stickies WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A2ACD1EC2512600748F14 /* Debug */,
+				388A2ACE1EC2512600748F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388A2AD01EC2512600748F14 /* Build configuration list for PBXNativeTarget "Stickies WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A2AD11EC2512600748F14 /* Debug */,
+				388A2AD21EC2512600748F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388A2AD41EC2512600748F14 /* Build configuration list for PBXNativeTarget "Stickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A2AD51EC2512600748F14 /* Debug */,
+				388A2AD61EC2512600748F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388A2AD71EC2512600748F14 /* Build configuration list for PBXNativeTarget "StickiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A2AD81EC2512600748F14 /* Debug */,
+				388A2AD91EC2512600748F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388A2ADA1EC2512600748F14 /* Build configuration list for PBXNativeTarget "StickiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388A2ADB1EC2512600748F14 /* Debug */,
+				388A2ADC1EC2512600748F14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 388A2A791EC2512600748F14 /* Project object */;
+}
